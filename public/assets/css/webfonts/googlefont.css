@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'Material Icons';
+	src: url(./Material-Icons.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Material Outlined';
+	src: url(./Material-Icons-Outlined.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Material Round';
+	src: url(./Material-Icons-Round.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Material Sharp';
+	src: url(./Material-Icons-Sharp.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Material TwoTone';
+	src: url(./Material-Icons-TwoTone.woff) format('woff');
+}
+
+.fgi,
+.fgo,
+.fgr,
+.fgs,
+.fgt {
+	display: inline-block;
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	vertical-align: middle;
+
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
+
+.fgi {
+	font-family: 'Material Icons';
+}
+
+.fgo {
+	font-family: 'Material Outlined';
+}
+
+.fgr {
+	font-family: 'Material Round';
+}
+
+.fgs {
+	font-family: 'Material Sharp';
+}
+
+.fgt {
+	font-family: 'Material TwoTone';
+}
